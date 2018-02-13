@@ -11,7 +11,7 @@ if __name__ == '__main__':
 
     if output == 'bbcode':
         print('Hier die Sammlung aller Produktbewertungsthreads, inklusive Durchschnittsbewertung und Ranking.')
-        print('Das script ist verfügbar unter https://github.com/zaboron/Splittermond/blob/master/parsebewertungen.py')
+        print('Das script ist verfügbar unter https://github.com/cvaliente/bewertungsparser')
 
         for produkt_typ in produkt_typen:
             print('\r\n' + font_bold(produkt_typ))
