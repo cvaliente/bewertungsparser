@@ -18,10 +18,10 @@ BAYES_LIMIT_ABENTEUER = 30
 BAYES_LIMIT_SPIELHILFEN = 50
 
 produkt_bayes_limit = {
-    SPIEL_HILFEN: BAYES_LIMIT_SPIELHILFEN,
-    ZUBEHOR: BAYES_LIMIT_ABENTEUER,
-    KAUF_ABENTEUER: BAYES_LIMIT_ABENTEUER,
-    FREIE_ABENTEUER: BAYES_LIMIT_ABENTEUER,
+    SPIEL_HILFEN:       BAYES_LIMIT_SPIELHILFEN,
+    ZUBEHOR:            BAYES_LIMIT_ABENTEUER,
+    KAUF_ABENTEUER:     BAYES_LIMIT_ABENTEUER,
+    FREIE_ABENTEUER:    BAYES_LIMIT_ABENTEUER,
 }
 
 # Collection of Thread IDs in several categories
@@ -37,16 +37,11 @@ produkt_threads = OrderedDict([
 
 # maintain anthologies separately
 Anthologien = OrderedDict([
-    ('Unter Wölfen', [
-        3523, 3524, 3525]),
-    ('Zwischen den Welten', [
-        5009, 5010, 5011]),
-    ('An den Küsten der Kristallsee', [
-        3817, 3826, 3827, 3828]),
-    ('Alter Friede, neuer Streit', [
-        5173, 5174, 5175]),
-    ('Verwunschene Mauern', [
-        5535, 5536, 5537])
+    ('Unter Wölfen',                    [3523, 3524, 3525]),
+    ('Zwischen den Welten',             [5009, 5010, 5011]),
+    ('An den Küsten der Kristallsee',   [3817, 3826, 3827, 3828]),
+    ('Alter Friede, neuer Streit',      [5173, 5174, 5175]),
+    ('Verwunschene Mauern',             [5535, 5536, 5537])
 ])
 
 # Add anthologies to collection to avoid duplicates
